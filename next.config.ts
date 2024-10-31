@@ -1,9 +1,6 @@
-import type { NextConfig } from "next";
-import { hostname } from "os";
+/** @type {import('next').NextConfig} */
+const nextConfig = {};
 
-const nextConfig: NextConfig = {
-  /* config options here */
-};
 
 module.exports = {
   images: {
