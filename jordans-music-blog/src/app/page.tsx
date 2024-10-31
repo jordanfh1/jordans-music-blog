@@ -5,8 +5,10 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className={styles.page}>
-      <h1>JAZZ</h1>
-      <Link href="/blogEntry1">Exploring Cool Jazz?!</Link>
+      <h1>WELCOME!
+      </h1>
+      <h2>Most recent blog post:</h2>
+      <Link className={styles.blogLink} href="/exploringcooljazz">Exploring Cool Jazz</Link>
     </div>
   );
 }
