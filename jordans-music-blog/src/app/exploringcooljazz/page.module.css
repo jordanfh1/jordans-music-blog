@@ -7,7 +7,7 @@
   
     --heading-color: #333;
     --text-color: #555;
-    --highlight: #9b59b6; 
+    --highlight: #0047AB	; 
   
   
     align-items: center;
@@ -19,6 +19,26 @@
     background-color: var(--gray-alpha-100);
     color: var(--text-color);
 }
+.date{
+    padding: 1rem;
+}
+
+.description{
+    padding: 1rem;
+}
+
+.reviewsContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.review{
+    display: flex;
+    flex-direction: row;
+    padding-top: 3rem;
+    padding: 0 8rem;
+    gap: 16px;
+}
 
 @media (prefers-color-scheme: dark) {
     .page {
@@ -28,7 +48,7 @@
         
         --heading-color: #e0e0e0;
         --text-color: #d1d1d1;
-        --highlight: #c99ff0;
+        --highlight: #00A36C;
     }
 }
 
@@ -42,7 +62,9 @@
 .h2 {
     font-size: 1.5rem;
     color: var(--highlight);
-    margin-top: 24px;
+    margin-top: 5rem;
+    text-align: center;
+    
 }
 
 .h3 {
@@ -54,6 +76,21 @@
 .p {
     font-size: 1rem;
     line-height: 1.6;
-    margin-bottom: 16px;
+    margin-bottom: 4rem;
     color: var(--text-color);
+}
+
+.image{
+}
+.listenLink{
+    padding-top: 1rem;
+    color: var(--highlight);
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.listenLink:hover{
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
 }
