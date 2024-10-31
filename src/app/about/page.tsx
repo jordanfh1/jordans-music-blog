@@ -13,7 +13,7 @@ export default function Home() {
         While jazz holds a special place for me, my love for music spans across genres. My influences range from Yussef Dayes, 
         Tom Misch, Stan Getz, Bill Evans, and Khruangbin to The Clash, System of a Down, and Jungle. 
         These artists inspire me to constantly experiment with sounds and rhythms, and I&#39;m looking forward to kicking off a 
-        jazz band soon to dive even deeper into this journey.
+        jazz band soon to dive even deeper into this journey. Myuameajeff
         </p>
         <Image className={styles.image} src="https://ovationmusic.org.uk/wp-content/uploads/2019/09/Jordan-Houghton-300x300.jpg" alt="A picture of Jordan" width="250" height="250"/>
     
