@@ -8,7 +8,9 @@ export default function Home() {
       <h1>WELCOME!
       </h1>
       <h2>Most recent blog post:</h2>
+      <div className={styles.recentBlog}>
       <Link className={styles.blogLink} href="/exploringcooljazz">Exploring Cool Jazz</Link>
+      </div>
     </div>
   );
 }

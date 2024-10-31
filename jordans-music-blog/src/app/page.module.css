@@ -115,6 +115,14 @@ a.secondary {
   flex-shrink: 0;
 }
 
+.recentBlog{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background-color: #383838;
+  padding: 1rem;
+}
+
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   a.primary:hover {
