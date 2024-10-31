@@ -1,16 +1,16 @@
 import styles from "./Header.module.css"; 
-import Image from "next/image";
+import Link from "next/link";
 
 export default function Header() {
   return (
     <header className={styles.header}>
-      <h1 className={styles.title}>Jordan's Music Blog</h1>
+      <h1 className={styles.title}>Jordan&#39;s Music Blog</h1>
       <nav className={styles.nav}>
         <ul className={styles.navList}>
-          <li className={styles.navItem}><a href="/">Home</a></li>
-          <li className={styles.navItem}><a href="/about">About</a></li>
-          <li className={styles.navItem}><a href="/blog">Blog</a></li>
-          <li className={styles.navItem}><a href="/contact">Contact</a></li>
+          <li className={styles.navItem}><Link href="/">Home</Link></li>
+          <li className={styles.navItem}><Link href="/about">About</Link></li>
+          <li className={styles.navItem}><Link href="/blog">Blog</Link></li>
+          <li className={styles.navItem}><Link href="/contact">Contact</Link></li>
         </ul>
       </nav>
     </header>
