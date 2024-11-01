@@ -33,12 +33,12 @@ export default function BlogEntry1() {
   <a className={styles.listenLink} href="https://open.spotify.com/album/5JJ779nrbHx0KB2lBrMMa4" target="_blank">Listen here on Spotify!</a>
 
   <div className={styles.review}>
-  <Image className={styles.image} src="https://upload.wikimedia.org/wikipedia/en/thumb/1/1d/Chet_%28album%29.jpg/220px-Chet_%28album%29.jpg" alt="Chet by Chet Baker cover art" width="250" height="250"/>
   <p  className={styles.p}>
     Chet Baker is synonymous with cool jazz, but his 1959 album <i>Chet</i> often flies under the radar compared to his vocal albums. This record is 
     purely instrumental, featuring Baker&#39;s warm, velvety trumpet sound accompanied by jazz legends like Bill Evans on piano and Paul Chambers on bass. 
     Tracks like “Alone Together” and “How High the Moon” are wonderfully delicate, making this one of the best albums to experience Baker&#39;s subtle, haunting style.
   </p>
+  <Image className={styles.image} src="https://upload.wikimedia.org/wikipedia/en/thumb/1/1d/Chet_%28album%29.jpg/220px-Chet_%28album%29.jpg" alt="Chet by Chet Baker cover art" width="250" height="250"/>
   </div>
 
   <h2 className={styles.h2}>3. Jazz Giant by Bud Powell (1950)</h2>
@@ -58,12 +58,13 @@ export default function BlogEntry1() {
   <a className={styles.listenLink} href="https://open.spotify.com/album/77m6MfPZux3svsluyephB7?si=oPXPG84VQBqKgBK556ywzw" target="_blank">Listen here on Spotify!</a>
 
   <div className={styles.review}>
-  <Image className={styles.image} src="https://m.media-amazon.com/images/I/51IpgrBH2JL.__AC_SY300_SX300_QL70_ML2_.jpg" alt="Out of the Cool by Gil Evans cover art" width="250" height="250"/>
   <p className={styles.p}>
     Gil Evans was a master arranger and composer, and <i>Out of the Cool</i> is a lesser-known record that displays his unique orchestral approach to cool jazz. 
     This album blends elements of jazz with experimental harmonies and textures that evoke a cinematic quality. Tracks like “La Nevada” unfold slowly, 
     revealing layers of sound and color that keep listeners captivated. It&#39;s a must-listen for anyone interested in the more orchestrated side of cool jazz.
   </p>
+  <Image className={styles.image} src="https://m.media-amazon.com/images/I/51IpgrBH2JL.__AC_SY300_SX300_QL70_ML2_.jpg" alt="Out of the Cool by Gil Evans cover art" width="250" height="250"/>
+
   </div>
 
   <h2 className={styles.h2}>5. The Artistry of Stan Getz by Stan Getz (1956)</h2>
