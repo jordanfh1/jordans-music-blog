@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import styles from './blogPostCard.module.css';
+import Image from 'next/image';
 
 interface BlogPostCardProps {
   image: string;
@@ -22,10 +23,10 @@ const BlogPostCard: React.FC<BlogPostCardProps> = ({
 }) => {
   return (
     <Link legacyBehavior href={link} passHref>
-      <a className={styles.cardLink}> {/* This makes the whole card clickable */}
+      <a className={styles.cardLink}> 
         <div className={styles.card}>
           <div className={styles.imageContainer}>
-            <img src={image} alt={title} className={styles.image} />
+            <Image src={image} alt={title} className={styles.image} width="150" height="300" />
           </div>
           <div className={styles.details}>
             <h3 className={styles.title}>{title}</h3>

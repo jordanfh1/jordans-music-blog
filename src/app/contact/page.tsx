@@ -6,9 +6,9 @@ import { FaGithub , FaLinkedin } from "react-icons/fa";
 const Contact = () => {
     return (
         <div className={styles.page}>
-            <h1 className={styles.heading}>Let's Connect!</h1>
+            <h1 className={styles.heading}>Let&#39;s Connect!</h1>
             <p className={styles.description}>
-                I'm always excited to connect with fellow developers, musicians, and enthusiasts. Feel free to reach out!
+                I&#39;m always excited to connect with fellow developers, musicians, and enthusiasts. Feel free to reach out!
             </p>
             <div className={styles.links}>
                 <a href="https://www.linkedin.com/in/jordan-houghton-2441711ba/" target="_blank" rel="noopener noreferrer" className={styles.link}>
