@@ -43,6 +43,11 @@ module.exports = {
         hostname: 'ovationmusic.org.uk',
         port: '',
         pathname: '/wp-content/uploads/2019/09/Jordan-Houghton-300x300.jpg',
+      },
+      {protocol: 'https',
+      hostname: 'splice-res.cloudinary.com',
+      port: '',
+      pathname: '/image/upload/f_auto,q_auto/v1548438313/app-assets/plugins/rent-to-own-plugins_2x.jpg',
       }
     ],
   },

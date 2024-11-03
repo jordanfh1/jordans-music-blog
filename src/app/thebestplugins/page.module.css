@@ -1,0 +1,137 @@
+.page {
+    --gray-rgb: 0, 0, 0;
+    --gray-alpha-200: rgba(var(--gray-rgb), 0.08);
+    --gray-alpha-100: rgba(var(--gray-rgb), 0.05);
+  
+    --heading-color: #333;
+    --text-color: #555;
+    --highlight: #0047AB;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 40px; /* Smaller padding for all screen sizes */
+    gap: 32px;
+    font-family: Arial, sans-serif;
+    background-color: var(--gray-alpha-100);
+    color: var(--text-color);
+}
+
+.date {
+    padding: 1rem;
+    text-align: center;
+}
+
+.description, .finalThoughts {
+    padding: 0 5rem; /* Adjusted for larger screens */
+}
+
+.reviewsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items on mobile */
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem; /* Smaller padding on all devices */
+    gap: 16px;
+    width: 100%; /* Full-width on small screens */
+}
+
+.h1 {
+    font-size: 2rem;
+    color: var(--heading-color);
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.h2 {
+    font-size: 1.5rem;
+    color: var(--highlight);
+    margin-top: 2rem; /* Reduced top margin for mobile */
+    text-align: center;
+}
+
+.h3 {
+    font-size: 1.25rem;
+    color: var(--heading-color);
+    margin-top: 24px;
+    text-align: center;
+}
+
+.p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 2rem; /* Reduced bottom margin for mobile */
+    color: var(--text-color);
+    text-align: left;
+}
+
+.image{
+    align-self: center;
+    border-radius: 8px;
+}
+
+.listenLink {
+    padding: 1rem 0;
+    color: var(--highlight);
+    text-decoration: none;
+    text-align: center;
+}
+
+.listenLink:hover {
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
+
+/* Dark mode adjustments */
+@media (prefers-color-scheme: dark) {
+    .page {
+        --gray-rgb: 255, 255, 255;
+        --gray-alpha-200: rgba(var(--gray-rgb), 0.145);
+        --gray-alpha-100: rgba(var(--gray-rgb), 0.06);
+
+        --heading-color: #e0e0e0;
+        --text-color: #d1d1d1;
+        --highlight: #00A36C;
+    }
+}
+
+/* Responsive adjustments for mobile */
+@media (max-width: 768px) {
+    .page {
+        padding: 20px; /* Reduced padding on mobile */
+    }
+    
+    .description, .finalThoughts {
+        padding: 0 1rem; /* Narrower padding on mobile */
+    }
+
+    .review {
+        flex-direction: column; /* Stack items vertically on mobile */
+        padding: 1rem 2rem; /* Reduced padding on mobile */
+    }
+
+    .h1 {
+        font-size: 1.75rem;
+    }
+
+    .h2 {
+        font-size: 1.25rem;
+        margin-top: 1.5rem;
+    }
+
+    .h3 {
+        font-size: 1rem;
+        margin-top: 16px;
+    }
+
+    .p {
+        font-size: 0.9rem;
+        margin-bottom: 1.5rem;
+    }
+}
