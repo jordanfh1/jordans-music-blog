@@ -6,7 +6,7 @@ import React from 'react';
 
 export const metadata: Metadata = {
   title: "Jordan's Music Blog",
-  description: "A music blog innit",
+  description: "A music blog",
 };
 
 export default function RootLayout({
