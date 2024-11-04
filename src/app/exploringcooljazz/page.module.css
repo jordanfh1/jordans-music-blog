@@ -5,6 +5,8 @@
   
     --heading-color: #ffffff;
     --text-color: #ffffff;
+    --highlight: #4987de;
+
 
     display: flex;
     flex-direction: column;
