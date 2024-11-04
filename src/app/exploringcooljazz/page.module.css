@@ -3,9 +3,8 @@
     --gray-alpha-200: rgba(var(--gray-rgb), 0.08);
     --gray-alpha-100: rgba(var(--gray-rgb), 0.05);
   
-    --heading-color: #333;
-    --text-color: #555;
-    --highlight: #0047AB;
+    --heading-color: #ffffff;
+    --text-color: #ffffff;
 
     display: flex;
     flex-direction: column;
@@ -15,7 +14,7 @@
     padding: 40px; /* Smaller padding for all screen sizes */
     gap: 32px;
     font-family: Arial, sans-serif;
-    background-color: var(--gray-alpha-100);
+	background-color: #181818;
     color: var(--text-color);
 }
 

@@ -4,7 +4,7 @@
     --gray-alpha-100: rgba(var(--gray-rgb), 0.05);
   
     --heading-color: #333;
-    --text-color: #555;
+    --text-color: #ffffff;
     --highlight: #0047AB;
 
     display: flex;
@@ -34,7 +34,7 @@
 
 .h1 {
     font-size: 2rem;
-    color: var(--heading-color);
+    color: var(--text-color);
     text-align: center;
     margin-bottom: 16px;
 }

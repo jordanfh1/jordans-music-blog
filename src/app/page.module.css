@@ -2,6 +2,8 @@
   --gray-rgb: 0, 0, 0;
   --gray-alpha-200: rgba(var(--gray-rgb), 0.08);
   --gray-alpha-100: rgba(var(--gray-rgb), 0.05);
+  --text-color: #ffffff;
+
 
   --button-primary-hover: #383838;
   --button-secondary-hover: #f2f2f2;
@@ -14,6 +16,7 @@
   font-family: var(--font-geist-sans);
   background-color: #181818;
   height:84.5vh;
+  color: var(--text-color);
 }
 
 .centerText{

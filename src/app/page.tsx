@@ -6,7 +6,7 @@ import BlogPostCard from '../components/blogPostCard/blogPostCard';
 export default function Home() {
   return (
     <div className={styles.page}>
-<h1 className={styles.centerText}>Welcome to my Music Blog</h1>
+<h1 className={styles.centerText}>Welcome to my music blog</h1>
 <h2 className={styles.centerText}>Have a read of my most recent post:</h2>
       <div className={styles.card}>
       <BlogPostCard
