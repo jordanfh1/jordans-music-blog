@@ -13,7 +13,7 @@
     padding: 40px;
     gap: 32px;
     font-family: Arial, sans-serif;
-    background-color: var(--gray-alpha-100);
+    background-color: #181818;
     color: var(--text-color);
     height: 84.5vh
 }

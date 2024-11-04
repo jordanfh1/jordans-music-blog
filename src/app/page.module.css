@@ -12,6 +12,8 @@
   padding: 80px;
   gap: 64px;
   font-family: var(--font-geist-sans);
+  background-color: #181818;
+  height:84.5vh;
 }
 
 .centerText{
@@ -183,7 +185,4 @@ a.secondary {
   .logo {
     filter: invert();
   }
-}
-
-.card{
 }

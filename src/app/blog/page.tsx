@@ -6,20 +6,20 @@ const HomePage = () => {
   return (
     <div className={styles.page}>
 
-<div className={styles.projcardContainer}>
+      <h1>Blog feed</h1>
 
+      <div className={styles.projcardContainer}>
 <BlogPostCard
-        image="https://splice-res.cloudinary.com/image/upload/f_auto,q_auto/v1548438313/app-assets/plugins/rent-to-own-plugins_2x.jpg"
+        image="https://blog-api.landr.com/wp-content/uploads/2024/06/Best-Free-VST-Plugins-in-2024-featured.png"
         genre="Music Production"
-        title="The Best DAW Plugins for Creating Music"
+        title="My Favourite Plugins"
         author="Jordan Houghton"
         date="November 03, 2024"
-        snippet="Each of these plugins brings a different flavour to the table"
+        snippet="10 Plugins You Need to Know About"
         link="/thebestplugins"
       />
-
     </div>
-    
+
     <div className={styles.projcardContainer}>
 <BlogPostCard
         image="https://upload.wikimedia.org/wikipedia/en/3/3a/The_Sound_of_Sonny.jpg"
@@ -27,13 +27,12 @@ const HomePage = () => {
         title="Exploring Cool Jazz"
         author="Jordan Houghton"
         date="October 31, 2024"
-        snippet="5 Records You Need to Hear."
+        snippet="5 Records You Need to Hear"
         link="/exploringcooljazz"
       />
       </div>
 
       
-
     </div>
   );
 };

@@ -10,12 +10,12 @@ export default function Home() {
 <h2 className={styles.centerText}>Have a read of my most recent post:</h2>
       <div className={styles.card}>
       <BlogPostCard
-        image="https://splice-res.cloudinary.com/image/upload/f_auto,q_auto/v1548438313/app-assets/plugins/rent-to-own-plugins_2x.jpg"
+        image="https://blog-api.landr.com/wp-content/uploads/2024/06/Best-Free-VST-Plugins-in-2024-featured.png"
         genre="Music Production"
-        title="The Best DAW Plugins for Creating Music"
+        title="My Favourite Plugins"
         author="Jordan Houghton"
         date="November 03, 2024"
-        snippet="Each of these plugins brings a different flavour to the table"
+        snippet="10 Plugins You Need to Know About"
         link="/thebestplugins"
       />
       </div>
